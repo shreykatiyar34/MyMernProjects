@@ -1,0 +1,27 @@
+th{
+    background-color:#00B386;
+    height: 30px;
+    color: white;
+}
+table,tr{
+    border-collapse: collapse;
+    border: 1px solid lightgrey;
+}
+#i1{
+    width: 350px;
+}
+#i2{
+    width: 250px;
+}
+#i3{
+    width: 150px;
+}
+tr.td,th{
+    text-align: left;
+}
+td{
+    height: 30px;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}

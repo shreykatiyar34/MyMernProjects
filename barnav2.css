@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    height: 15px;
+    padding-left: 0px;
+    padding-bottom: 18px;
+    background-color:lightgray;
+}
+li{
+    float: left;
+    color: blue;
+    border-right: 1px solid blue;
+    padding: 7px;
+}
+li:last-child{
+    border-right:none;
+}
+li:hover{
+    background-color: gray;
+    color:white;
+}
